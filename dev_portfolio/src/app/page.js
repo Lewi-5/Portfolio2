@@ -213,7 +213,7 @@ export default function Home() {
           <h3 className="text-2xl underline mb-4 mb-20 text-center">BookPro Java Spring Boot Project</h3>
           <div className="flex justify-center">
           <Image
-            src="/BookPro.jpg"
+            src="/BookPro.JPG"
             width={230}
             height={250}
             className="rounded-lg hidden sm:block "
