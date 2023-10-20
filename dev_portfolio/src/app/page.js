@@ -63,8 +63,8 @@ export default function Home() {
           Full Stack Developer
         </h2>
         <p className="ml-9 mr-9 mt-9 font-normal text-lg  text-center relative hover:scale-125 transform transition duration-500">
-          "Keep striving for progress over perfection. A little progress, every
-          day, will go a <span className="underline">very</span> long way."
+        &quot;Keep striving for progress over perfection. A little progress, every
+          day, will go a <span className="underline">very</span> long way.&quot;
         </p>
         <p className="flex justify-center text-lg mb-9">-dave gray</p>
       </section>
@@ -91,11 +91,11 @@ export default function Home() {
           </p>{" "}
           <br />
           <p className="text-lg text-center mt-3 max-w-md line leading-snug">
-            In this line of work, you can <em>always</em> go deeper; there's
+            In this line of work, you can <em>always</em> go deeper; there&apos;s
             always a lower or higher level of implementation to discover. At
-            some point, even the world's greatest developer has to simply trust
+            some point, even the world&apos;s greatest developer has to simply trust
             the abstraction built by another. But we can always aim beyond these
-            thresholds, and that's what excites me on a daily basis.
+            thresholds, and that&apos;s what excites me on a daily basis.
           </p>
         </div>
         <div className="container flex items-center mt-9">
