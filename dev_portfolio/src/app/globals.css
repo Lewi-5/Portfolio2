@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes scaleDown {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hover\:scale-110:hover {
+  animation: scaleUp 0.5s forwards;
+}
+
+.hover\:scale-110 {
+  animation: scaleDown 0.5s forwards;
+}
+
+
+
+.iconsNode {
+  font-size: 4rem;
+  color: green;
+}
+.iconsMySQL {
+  font-size: 4rem;
+  color: black;
+}
+.iconsJquery {
+  font-size: 4rem;
+  color: black;
+}
+.iconsGit {
+  font-size: 4rem;
+  color: darkorange;
+}
+.iconsJs {
+  font-size: 4rem;
+  color: yellow;
+}
+.iconsJava {
+  font-size: 4rem;
+  color: black;
+}
+.iconsSpring {
+  font-size: 4rem;
+  color: Green;
+}
+.iconsPostgresql {
+  font-size: 4rem;
+  color: black
+}
+.iconsIntellij {
+  font-size: 4rem;
+  color: black
+}
+.iconsReact {
+  font-size: 4rem;
+  color: #61DBFB
+}
+.iconsStripe {
+  font-size: 4rem;
+  color: mediumslateblue
+}
+.iconsSequelize {
+  font-size: 4rem;
+  color: darkslategray
+}
+
